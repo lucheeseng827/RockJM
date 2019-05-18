@@ -21,3 +21,8 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+*.xml
+*.iml
+project/build.properties
+*.sbt
+.idea/*

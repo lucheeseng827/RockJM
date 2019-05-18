@@ -1,4 +1,4 @@
-import java.util.concurrent.atomic.DoubleAccumulator
+package part1basics
 
 import scala.annotation.tailrec
 
@@ -61,4 +61,11 @@ object Recursion extends App {
   println(tailRecursionPrime(103))
 
   println(tailRecursionPrime(1003))
+
+
+  val states = List("Alabama", "Alaska", "Virginia")
+  for  {
+    s <- states
+  }
+    println(s)
 }
